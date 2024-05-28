@@ -1,0 +1,99 @@
+body{
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    margin-bottom: 10%;
+}
+
+nav ul{
+    list-style: none;
+    text-align: right;
+}
+
+nav li{
+    display: inline-block;
+    margin: 5px;
+}
+
+nav li a{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+}
+
+nav li a:hover{
+    background-color: rgb(169, 169, 169);
+}
+
+.cbc{
+    background-image: url(Imagens/bg-2.jpg);
+    background-repeat: no-repeat;
+    padding: 1% 1% 5%;
+    background-position: bottom center;
+    background-size: cover;
+
+}
+
+.cbc-content{
+    text-align: center;
+    color: white;
+    
+}
+
+.cbc-content h1{
+    font-size: 56px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+}
+
+.cbc-content p{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 16px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.main-content{
+    background-color: lightgray;
+    margin: auto;
+    padding: 15px;
+}
+
+.art-content{
+    margin: 1% 15%;
+    background-color: white;
+    padding: 15px;
+}
+
+
+
+.art-header h2{
+    background-color: rgb(242, 242, 242);
+    padding: 5px;
+    margin: 0;
+    border-bottom: 2px lightgray solid;
+}
+
+.art-content a{
+    display: inline-block;
+    padding: 10px;
+    background-color: lightgray;
+    text-decoration: none;
+}
+
+footer{
+    background-color: gray;
+    text-align: center;
+    padding: 40px;
+}
+
+footer p{
+    margin: 0;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
